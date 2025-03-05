@@ -64,12 +64,18 @@ function pruneblock() {
 }
 
 function stop() {
-  if [ ! -f "$dst/pid" ];then
+  if [ ! -f "$dst/pid" ]; then
     echo "$dst/pid not exist"
   else
-    kill `cat $dst/pid`
-    rm -f $dst/pid
-    sleep 5
+    pid=`cat $dst/pid`
+    if ps -p $pid > /dev/null 2>&1; then
+      kill $pid
+      rm -f $dst/pid
+      sleep 5
+    else
+      echo "Process $pid does not exist"
+      rm -f $dst/pid
+    fi
   fi
 }
 
