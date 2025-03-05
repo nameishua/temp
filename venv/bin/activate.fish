@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV /Users/gala/data/web3/node-deploy/node-deploy/venv
+set -gx VIRTUAL_ENV /Users/gala/data/web3/node-deploy/temp/venv
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH

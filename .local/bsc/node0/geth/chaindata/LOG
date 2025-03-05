@@ -18,3 +18,15 @@
 10:10:10.486275 db@open done T·58.6585ms
 10:26:28.985085 db@close closing
 10:26:28.985303 db@close done T·217.25µs
+=============== Mar 5, 2025 (CST) ===============
+11:34:28.414605 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:34:28.415941 version@stat F·[1] S·391KiB[391KiB] Sc·[0.25]
+11:34:28.415955 db@open opening
+11:34:28.416487 journal@recovery F·1
+11:34:28.417744 journal@recovery recovering @3
+11:34:28.431071 memdb@flush created L0@5 N·4547 S·459KiB "\x00\x14<..0}\x9d,v4526":"\xff\xf2\xf6..B&=,v4571"
+11:34:28.432888 version@stat F·[2] S·850KiB[850KiB] Sc·[0.50]
+11:34:28.471898 db@janitor F·4 G·0
+11:34:28.471923 db@open done T·55.9605ms
+11:35:35.022370 db@close closing
+11:35:35.023382 db@close done T·1.010125ms
