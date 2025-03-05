@@ -88,9 +88,12 @@ CMD=$1
 case ${CMD} in
 start)
     echo "===== start ===="
-    clean
-    init
     start
+    echo "===== end ===="
+    ;;
+init)
+    echo "===== init ===="
+    init
     echo "===== end ===="
     ;;
 stop)
@@ -116,7 +119,7 @@ pruneblock)
     echo "===== end ===="
     ;;
 *)
-    echo "Usage: bsc_fullnode.sh start|stop|restart|clean nodeIndex syncmode"
+    echo "Usage: bsc_fullnode.sh start|stop|restart|clean|init nodeIndex syncmode"
     echo "like: bsc_fullnode.sh start 1 snap, it will startup a snapsync node1"
     ;;
 esac
