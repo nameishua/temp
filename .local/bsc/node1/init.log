@@ -1,0 +1,25 @@
+INFO [03-05|10:10:08.440] Maximum peer count                       ETH=50 total=50
+INFO [03-05|10:10:08.441] Using pebble as db engine
+INFO [03-05|10:10:08.443] Use CLI state scheme                     CLI=path
+INFO [03-05|10:10:08.443] Set global gas cap                       cap=50,000,000
+INFO [03-05|10:10:08.443] Initializing the KZG library             backend=gokzg
+INFO [03-05|10:10:08.460] Using pebble as the backing database
+INFO [03-05|10:10:08.460] Allocated cache and file handles         database=/Users/gala/data/web3/node-deploy/node-deploy/.local/bsc/node1/geth/chaindata cache=16.00MiB handles=16 "memory table"=4.00MiB
+INFO [03-05|10:10:08.518] Opened ancient database                  database=/Users/gala/data/web3/node-deploy/node-deploy/.local/bsc/node1/geth/chaindata/ancient/chain readonly=false frozen=0
+INFO [03-05|10:10:08.520] Using pebble as the backing database
+INFO [03-05|10:10:08.520] Allocated cache and file handles         database=/Users/gala/data/web3/node-deploy/node-deploy/.local/bsc/node1/geth/chaindata/state cache=16.00MiB handles=16 "memory table"=4.00MiB
+INFO [03-05|10:10:08.572] Opened ancient database                  database=/Users/gala/data/web3/node-deploy/node-deploy/.local/bsc/node1/geth/chaindata/state/ancient/chain readonly=false frozen=0
+INFO [03-05|10:10:08.575] Using pebble as the backing database
+INFO [03-05|10:10:08.575] Allocated cache and file handles         database=/Users/gala/data/web3/node-deploy/node-deploy/.local/bsc/node1/geth/chaindata/block cache=16.00MiB handles=16 "memory table"=4.00MiB
+INFO [03-05|10:10:08.633] Opened ancient database                  database=/Users/gala/data/web3/node-deploy/node-deploy/.local/bsc/node1/geth/chaindata/block/ancient/chain readonly=false frozen=0
+WARN [03-05|10:10:08.634] Multi-database is an experimental feature
+INFO [03-05|10:10:08.634] State scheme set by user                 scheme=path
+INFO [03-05|10:10:08.634] New journal reader for journal kv
+INFO [03-05|10:10:08.634] New journal reader for journal kv
+WARN [03-05|10:10:08.634] Failed to load disk journal with node buffer, discard it err="journal not found"
+INFO [03-05|10:10:08.634] New async node buffer                    limit=64.00MiB layers=0
+INFO [03-05|10:10:08.674] Opened ancient database                  database=/Users/gala/data/web3/node-deploy/node-deploy/.local/bsc/node1/geth/chaindata/state/ancient/state readonly=false frozen=0
+INFO [03-05|10:10:08.674] Initialized path database                cache=16.00MiB buffer=64.00MiB history=90000
+INFO [03-05|10:10:08.675] Writing custom genesis block
+INFO [03-05|10:10:08.738] genesis block hash                       hash=23e529..8bb359
+INFO [03-05|10:10:08.738] Successfully wrote genesis state         database=chaindata hash=0x23e5298ac09a34a9b4aca2caf5b2f3a5fd9e72aacb7528e939fca17cb08bb359

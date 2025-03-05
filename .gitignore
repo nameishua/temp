@@ -1,0 +1,8 @@
+/bin/geth
+/bin/bnbchaind
+/bin/tbnbcli
+/bin/tool
+/bin/bootnode
+
+
+.idea/

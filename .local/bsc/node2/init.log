@@ -1,0 +1,18 @@
+INFO [03-05|10:10:08.887] Maximum peer count                       ETH=50 total=50
+INFO [03-05|10:10:08.888] Using pebble as db engine
+INFO [03-05|10:10:08.890] Use CLI state scheme                     CLI=path
+INFO [03-05|10:10:08.890] Set global gas cap                       cap=50,000,000
+INFO [03-05|10:10:08.891] Initializing the KZG library             backend=gokzg
+INFO [03-05|10:10:08.907] Using pebble as the backing database
+INFO [03-05|10:10:08.907] Allocated cache and file handles         database=/Users/gala/data/web3/node-deploy/node-deploy/.local/bsc/node2/geth/chaindata cache=16.00MiB handles=16 "memory table"=4.00MiB
+INFO [03-05|10:10:08.957] Opened ancient database                  database=/Users/gala/data/web3/node-deploy/node-deploy/.local/bsc/node2/geth/chaindata/ancient/chain readonly=false frozen=0
+INFO [03-05|10:10:08.959] State scheme set by user                 scheme=path
+INFO [03-05|10:10:08.959] New journal reader for journal kv
+INFO [03-05|10:10:08.959] New journal reader for journal kv
+WARN [03-05|10:10:08.959] Failed to load disk journal with node buffer, discard it err="journal not found"
+INFO [03-05|10:10:08.959] New async node buffer                    limit=64.00MiB layers=0
+INFO [03-05|10:10:08.995] Opened ancient database                  database=/Users/gala/data/web3/node-deploy/node-deploy/.local/bsc/node2/geth/chaindata/ancient/state readonly=false frozen=0
+INFO [03-05|10:10:08.995] Initialized path database                cache=16.00MiB buffer=64.00MiB history=90000
+INFO [03-05|10:10:08.995] Writing custom genesis block
+INFO [03-05|10:10:09.053] genesis block hash                       hash=23e529..8bb359
+INFO [03-05|10:10:09.053] Successfully wrote genesis state         database=chaindata hash=0x23e5298ac09a34a9b4aca2caf5b2f3a5fd9e72aacb7528e939fca17cb08bb359
