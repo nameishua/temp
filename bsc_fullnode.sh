@@ -49,7 +49,7 @@ function init() {
 function start() {
   nohup ${workspace}/bin/geth --config $dst/config.toml --port $(( 31000 + $index ))  \
   --datadir $dst --rpc.allow-unprotected-txs --allow-insecure-unlock \
-  --ws.addr 0.0.0.0 --ws.port $(( 8600 + $index )) --http.addr 0.0.0.0 --http.port $(( 8600 + $index )) --http.corsdomain "*" \
+  --ws.addr 0.0.0.0 --ws.port 8545 --http.addr 0.0.0.0 --http.port 8545 --http.corsdomain "*" \
   --metrics --metrics.addr 0.0.0.0 --metrics.port $(( 6100 + $index )) --metrics.expensive \
   --gcmode $gcmode --syncmode $syncmode --state.scheme ${stateScheme} $extraflags \
   --rialtohash ${rialtoHash} --override.passedforktime ${PassedForkTime} --override.pascal ${LastHardforkTime} --override.prague ${LastHardforkTime} \
